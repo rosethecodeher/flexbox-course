@@ -2,10 +2,39 @@
 <html lan='en'>
 <head>
     <meta charset='UTF-8'>
-    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+    <title>Error Page</title>
+
+    <style>
+        body{
+            background-color: lightgoldenrodyellow;
+            font-family: 'Merriweather', serif;
+        }
+        .error_wrapper {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+
+        }
+        .error_wrapper > .error_eading {
+            margin-bottom: 42px;
+        }
+        img{
+            width: 15%;
+
+        }
+    </style>
+
 </head>
 <body>
-    <h1>Hi Flexbox</h1>
-    <p>some context</p>
+    <div class="error_wrapper">
+        <div class="error_heading">
+            <h2>Yikes...Who knows when that page will be available..</h2>
+        </div>
+        <img src="images/tbot.png" alt="">
+    </div>
 </body>
 </html>
